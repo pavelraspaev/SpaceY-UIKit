@@ -13,6 +13,7 @@
 		CED51951292D747000D7AF1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED5194F292D747000D7AF1B /* Main.storyboard */; };
 		CED51953292D747100D7AF1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED51952292D747100D7AF1B /* Assets.xcassets */; };
 		CED51956292D747100D7AF1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED51954292D747100D7AF1B /* LaunchScreen.storyboard */; };
+		CED5195E292D747900D7AF1B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CED5195D292D747900D7AF1B /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CED51952292D747100D7AF1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED51955292D747100D7AF1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CED51957292D747100D7AF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED5195D292D747900D7AF1B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		CED5193D292D747000D7AF1B = {
 			isa = PBXGroup;
 			children = (
+				CED5195D292D747900D7AF1B /* .gitignore */,
 				CED51948292D747000D7AF1B /* SpaceY-UIKit */,
 				CED51947292D747000D7AF1B /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED5195E292D747900D7AF1B /* .gitignore in Resources */,
 				CED51956292D747100D7AF1B /* LaunchScreen.storyboard in Resources */,
 				CED51953292D747100D7AF1B /* Assets.xcassets in Resources */,
 				CED51951292D747000D7AF1B /* Main.storyboard in Resources */,
@@ -286,20 +290,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 69;
 				DEVELOPMENT_TEAM = 26BDZW584M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SpaceY-UIKit/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Space Y";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pavelraspaev.SpaceY-UIKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -314,20 +320,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 69;
 				DEVELOPMENT_TEAM = 26BDZW584M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SpaceY-UIKit/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Space Y";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pavelraspaev.SpaceY-UIKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
